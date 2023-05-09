@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/img/logo.svg" />
     <title>Produtos - Verdejantes</title>
+    
     <link rel="stylesheet" href="../assets/produtos.css">
     <link rel="stylesheet" href="../assets/style.css">
     <!-- <link rel="stylesheet" href="../assets/index.css"> -->
@@ -19,7 +20,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark topo" style="background-color: rgb(255, 255, 255); justify-content: center;">
         <div class="container px-4" style="justify-content: center;">
-          <a class="navbar-brand" href="">
+          <a class="navbar-brand" href="./home.html">
             <span> <img src="https://media.discordapp.net/attachments/958144099603591178/1104804121506238594/Group_1_1.png?width=751&height=670" alt="" class="logo"> </span>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -30,13 +31,19 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link" href="./home.html" style=" color:#000000; font-size:22px; font-weight: bolder; letter-spacing: 1px; font-family: 'Kavivanar';">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="" style=" color:#000000; font-size:22px; font-weight: bolder; letter-spacing: 1px; font-family: 'Kavivanar';">Produtos</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="./home.html" style=" color:#000000; font-size:22px; font-weight: bolder; letter-spacing: 1px;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="" style=" color:#000000; font-size:22px; font-weight: bolder; letter-spacing: 1px;">Produtos</a>
+              </li>
             </ul>
           </div>
         </div>
         <button type="button" href="./login.html" style="margin: 30px; margin-right: 30px; margin-left: 30px;">
-          LOGIN
+          <a href="./login.html" style="text-decoration:none; color:white; font-weight: bolder"> 
+            LOGIN
+          </a>
        </button>
       </nav>
 
@@ -49,69 +56,101 @@
         </script>
 
         <!--Produtos-->
-
-        <div>
-            <h1 class="text-dark fw-bold mb-4 text-center" style="margin-top: 100px;">Produtos</h1>
-            <hr style="margin-bottom: 30px;" />
-            <center>
-                <article>
-                    <section class="card">
-                      <div class="text-content">
-                        <h3>Buque de Tulipas Azuis</h3>
-                        <p style="font-weight: bolder;">R$200,00</p>
-                        <p>Um lindo buquê com tulipas na cor que mais lhe agradar. Elas são feitas de material látex e tem ótima durabilidade. Excelente qualidade.</p>  
-                        <a href="">Comprar</a>
+              <div style="display: flex; margin-top: 50px;">
+                  <div class="card-body">
+                      <div style="display: flex; margin: 10px; justify-content: center; margin-top: 20px;">
+                          <div class="card" style="width: 18rem; margin: 10px;">
+                              <img src="../assets/img/produtos/babosaMuda.png" class="card-img-top" alt="..." height="300px">
+                              <div class="card-body">
+                                  <div>
+                                      <h5 class="card-title">Muda de Babosa</h5>
+                                      <p class="card-text">R$40,00</p>
+                                      <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                              </div>
+                          </div>
+      
+                          <div class="card" style="width: 18rem; margin: 10px;">
+                              <img src="../assets/img/produtos/tulipaAzul.png" class="card-img-top" alt="..." height="300px">
+                              <div class="card-body">
+                                  <div>
+                                      <h5 class="card-title">Tulipa Azul</h5>
+                                      <p class="card-text">R$150,00</p>
+                                      <a href="#" class="btn btn-primary">Comprar</a>
+                                  </div>
+                              </div>
+                          </div>
+      
+                          <div class="card" style="width: 18rem; margin: 10px;">
+                              <img src="../assets/img/produtos/lavanda.png" class="card-img-top" alt="..." height="300px">
+                              <div class="card-body">
+                                  <h5 class="card-title">Lavanda</h5>
+                                  <p class="card-text">R$75,00</p>
+                                  <a href="#" class="btn btn-primary">Comprar</a>
+                              </div>
+                          </div>
+          
+                          <div class="card" style="width: 18rem; margin: 10px;">
+                              <img src="../assets/img/produtos/capimCidrera.png" class="card-img-top" alt="..." height="300px">
+                              <div class="card-body">
+                                  <h5 class="card-title">Capim Cidrera</h5>
+                                  <p class="card-text">R$30,00</p>
+                                  <a href="#" class="btn btn-primary">Comprar</a>
+                              </div>
+                          </div>
                       </div>
-                      <div class="visual">
-                        <img src="../assets/img/produtos/tulipaAzul.png" alt="" />
+  
+                      <div style="display: flex; margin: 10px; justify-content: center;">
+                          <div class="card" style="width: 18rem; margin: 10px;">
+                              <img src="../assets/img/produtos/orquideaAzul.png" class="card-img-to p" alt="..." height="300px">
+                              <div class="card-body">
+                                  <h5 class="card-title">Orquídea Azul</h5>
+                                  <p class="card-text">R$180,00</p>
+                                  <a href="#" class="btn btn-primary">Comprar</a>
+                              </div>
+                          </div>
+      
+                          <div class="card" style="width: 18rem; margin: 10px;">
+                              <img src="../assets/img/produtos/rosaVermelha.png" class="card-img-top" alt="..." height="300px">
+                              <div class="card-body">
+                                  <h5 class="card-title">Rosas Vermelhas</h5>
+                                  <p class="card-text">R$75,00</p>
+                                  <a href="#" class="btn btn-primary">Comprar</a>
+                              </div>
+                          </div>
+      
+                          <div class="card" style="width: 18rem; margin: 10px;">
+                              <img src="../assets/img/produtos/alface.png" class="card-img-top" alt="..." height="300px">
+                              <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">R$75,00</p>
+                                  <a href="#" class="btn btn-primary">Comprar</a>
+                              </div>
+                          </div>
+      
+                          <div class="card" style="width: 18rem; margin: 10px;">
+                              <img src="../assets/img/produtos/girassolVaso.png" class="card-img-top" alt="..." height="300px">
+                              <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">R$75,00</p>
+                                  <a href="#" class="btn btn-primary">Comprar</a>
+                              </div>
+                          </div>
                       </div>
-                    </section> 
-                  </article>
-              
-                  <article>
-                    <section class="card">
-                      <div class="text-content">
-                        <h3>Muda de Babosa</h3>
-                        <p style="font-weight: bolder;">R$40,00</p>
-                        <p>A babosa é uma planta medicinal, também conhecida como Aloé vera, Caraguatá, Erva babosa, Babosa de botica ou Babosa de jardim, que pode ser utilizada em diferentes cuidados de beleza, especialmente para melhorar a saúde pele ou do cabelo.</p>  
-                        <a href="">Comprar</a>
-                      </div>
-                      <div class="visual">
-                        <img src="../assets/img/produtos/babosaMuda.png" alt="" />
-                      </div>
-                    </section> 
-                  </article>
-
-                  <article>
-                    <section class="card">
-                      <div class="text-content">
-                        <h3>Buque de Rosas</h3>
-                        <p style="font-weight: bolder;">R$150,00</p>
-                        <p>As rosas são flores elegantes e ótimas opções de demonstrar carinho por alguém especial. O buquê de Rosas Vermelhas é um clássico, quando se quer falar de amor e paixão por meio das flores, além de materializar o amor em forma de flor. A pessoa presenteada vai amar.</p>  
-                        <a href="">Comprar</a>
-                      </div>
-                      <div class="visual">
-                        <img src="../assets/img/produtos/rosaProd.png" alt="" />
-                      </div>
-                    </section> 
-                  </article>
-
-                  <article>
-                    <section class="card">
-                      <div class="text-content">
-                        <h3>Muda de Cebolinha para plantio</h3>
-                        <p style="font-weight: bolder;">R$</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
-                        <a href="">Comprar</a>
-                      </div>
-                      <div class="visual">
-                        <img src="../assets/img/produtos/cebolinhaM.png" alt="" />
-                      </div>
-                    </section> 
-                  </article>
-            </center>
-        </div>
+                  </div>
+              </div>
+  
+              <div class="fundo">
+                  <div>
+                      <p>&#169;2023 - Pasto Verdejante</p>
+                  </div>
+        
+                  <div class="imgTotal">
+                    <img src="../assets/img/logo.svg" alt="Instagram" class='imgIcon'/>
+                </div>
+        
+              </div> 
+        <!---->
 
     </div>
 </body>
